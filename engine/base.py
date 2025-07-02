@@ -1,5 +1,7 @@
-from abc import ABC,abstractmethod
+from abc import ABC, abstractmethod
+
 import pandas as pd
+
 
 class BaseAnalyzer(ABC):
     def __init__(self, data: pd.DataFrame):
