@@ -1,0 +1,27 @@
+[tool.black]
+line-length = 100
+target-version = ['py311']
+skip-string-normalization = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I"]  # E: pycodestyle, F: pyflakes, I: import order
+exclude = ["venv", "__pycache__", "tests"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true
+disallow_untyped_defs = true
+exclude = 'tests'
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = [
+    "tests"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
