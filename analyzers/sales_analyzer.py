@@ -3,9 +3,10 @@ import pandas as pd
 from engine.base import BaseAnalyzer
 
 
-class SalesAnalyzer(BaseAnalyzer):
-    def __init__(self, df: pd.DataFrame):
-        self.df = df
+class SalesAnalyzer:
+    def __init__(self, data):
+        self.df = data  # data parametresi ile atanmalı
+        self._data = data  # Eğer _data değişkenini kullanıyorsan onu da ata
 
     def _get_monthly_data_or_msg(self, month: int) -> pd.DataFrame | str:
         monthly_data = self._data[self._data["date"].dt.month == month]
