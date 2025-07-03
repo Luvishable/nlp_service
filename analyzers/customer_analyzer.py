@@ -1,3 +1,6 @@
+class CustomerAnalyzer:
+    def __init__(self, df):
+        self.df = df
 def total_spending_by_customer(df, customer_name):
     customer_data = df[df['customer_name'] == customer_name]
     total = customer_data['total_price'].sum()
