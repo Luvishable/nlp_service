@@ -7,12 +7,6 @@ class SalesAnalyzer(BaseAnalyzer):
     def __init__(self, df: pd.DataFrame):
         super().__init__(df)
 
-    def _get_monthly_data_or_msg(self, month: int) -> pd.DataFrame | str:
-        monthly_data = self._data[self._data["date"].dt.month == month]
-        if monthly_data.empty:
-            return f"No sales data found for month {month}"
-        return monthly_data.copy()
-
     def analyze(self) -> str:
         pass
 

@@ -25,3 +25,9 @@ class BaseAnalyzer(ABC):
         if self._data.empty:
             raise ValueError("No data available for analysis.")
 
+    def _get_monthly_data_or_msg(self, month: int) -> pd.DataFrame | str:
+        monthly_data = self._data[self._data["date"].dt.month == month]
+        if monthly_data.empty:
+            return f"No data available for month {month}."
+        return monthly_data.copy()
+
