@@ -1,5 +1,5 @@
 import pandas as pd
-from pathlib import Path
+
 
 class PurchaseDataLoader:
     def __init__(self, file_path: str = "data/purchase_large.csv"):

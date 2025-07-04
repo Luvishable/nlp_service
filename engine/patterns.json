@@ -1,0 +1,25 @@
+{
+  "get_total_purchase_amount": [
+    "total purchase",
+    "purchase amount",
+    "total spending",
+    "how much we spent",
+    "total supplier spending"
+  ],
+  "get_top_supplier_by_spending": [
+    "top supplier",
+    "most spending supplier",
+    "main supplier",
+    "highest supplier spending"
+  ],
+  "get_supplier_purchase_count": [
+    "supplier purchase count",
+    "number of purchases per supplier",
+    "supplier purchase frequency"
+  ],
+  "get_top_purchased_product": [
+    "top purchased product",
+    "most purchased item",
+    "frequently purchased product"
+  ]
+}
