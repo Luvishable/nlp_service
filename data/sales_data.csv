@@ -1,101 +1,101 @@
-sale_id,date,product_name,quantity,total_price,category,customer_name,supplier_name
-1,2024-01-05,Milk,5,150,Dairy,Olivia Thomas,Supplier C
-2,2024-01-12,Bread,8,240,Bakery,James Jackson,Supplier A
-3,2024-01-19,Apple,10,300,Fruit,Emily White,Supplier D
-4,2024-01-26,Cheese,6,180,Dairy,Emily White,Supplier B
-5,2024-02-03,Tomato,9,270,Vegetable,Sarah Davis,Supplier D
-6,2024-02-10,Banana,7,350,Fruit,Daniel Anderson,Supplier A
-7,2024-02-17,Cucumber,4,120,Vegetable,Alice Johnson,Supplier B
-8,2024-02-24,Milk,6,180,Dairy,David Wilson,Supplier D
-9,2024-03-02,Bread,10,300,Bakery,Olivia Thomas,Supplier C
-10,2024-03-09,Apple,8,240,Fruit,John Smith,Supplier B
-11,2024-03-16,Cheese,12,360,Dairy,Emily White,Supplier A
-12,2024-03-23,Banana,5,250,Fruit,James Jackson,Supplier D
-13,2024-03-30,Tomato,7,210,Vegetable,Sarah Davis,Supplier C
-14,2024-04-06,Cucumber,11,330,Vegetable,Daniel Anderson,Supplier A
-15,2024-04-13,Milk,9,270,Dairy,Alice Johnson,Supplier B
-16,2024-04-20,Bread,6,180,Bakery,David Wilson,Supplier C
-17,2024-04-27,Apple,14,420,Fruit,Olivia Thomas,Supplier D
-18,2024-05-04,Cheese,10,300,Dairy,John Smith,Supplier A
-19,2024-05-11,Banana,8,400,Fruit,Emily White,Supplier B
-20,2024-05-18,Tomato,12,360,Vegetable,James Jackson,Supplier C
-21,2024-05-25,Cucumber,7,210,Vegetable,Sarah Davis,Supplier D
-22,2024-06-01,Milk,8,240,Dairy,Daniel Anderson,Supplier A
-23,2024-06-08,Bread,9,270,Bakery,Alice Johnson,Supplier B
-24,2024-06-15,Apple,13,390,Fruit,David Wilson,Supplier C
-25,2024-06-22,Cheese,15,450,Dairy,Olivia Thomas,Supplier D
-26,2024-06-29,Banana,10,500,Fruit,John Smith,Supplier A
-27,2024-07-06,Tomato,11,330,Vegetable,Emily White,Supplier B
-28,2024-07-13,Cucumber,12,360,Vegetable,James Jackson,Supplier C
-29,2024-07-20,Milk,5,150,Dairy,Sarah Davis,Supplier D
-30,2024-07-27,Bread,14,420,Bakery,Daniel Anderson,Supplier A
-31,2024-08-03,Apple,7,210,Fruit,Alice Johnson,Supplier B
-32,2024-08-10,Cheese,9,270,Dairy,David Wilson,Supplier C
-33,2024-08-17,Banana,11,550,Fruit,Olivia Thomas,Supplier D
-34,2024-08-24,Tomato,6,180,Vegetable,John Smith,Supplier A
-35,2024-08-31,Cucumber,8,240,Vegetable,Emily White,Supplier B
-36,2024-09-07,Milk,10,300,Dairy,James Jackson,Supplier C
-37,2024-09-14,Bread,15,450,Bakery,Sarah Davis,Supplier D
-38,2024-09-21,Apple,12,360,Fruit,Daniel Anderson,Supplier A
-39,2024-09-28,Cheese,7,210,Dairy,Alice Johnson,Supplier B
-40,2024-10-05,Banana,14,700,Fruit,David Wilson,Supplier C
-41,2024-10-12,Tomato,9,270,Vegetable,Olivia Thomas,Supplier D
-42,2024-10-19,Cucumber,10,300,Vegetable,John Smith,Supplier A
-43,2024-10-26,Milk,6,180,Dairy,Emily White,Supplier B
-44,2024-11-02,Bread,8,240,Bakery,James Jackson,Supplier C
-45,2024-11-09,Apple,9,270,Fruit,Sarah Davis,Supplier D
-46,2024-11-16,Cheese,10,300,Dairy,Daniel Anderson,Supplier A
-47,2024-11-23,Banana,12,600,Fruit,Alice Johnson,Supplier B
-48,2024-11-30,Tomato,13,390,Vegetable,David Wilson,Supplier C
-49,2024-12-07,Cucumber,14,420,Vegetable,Olivia Thomas,Supplier D
-50,2024-12-14,Milk,11,330,Dairy,John Smith,Supplier A
-51,2024-12-21,Bread,7,210,Bakery,Emily White,Supplier B
-52,2024-12-28,Apple,8,240,Fruit,James Jackson,Supplier C
-53,2024-01-10,Cheese,6,180,Dairy,Sarah Davis,Supplier D
-54,2024-01-17,Banana,9,450,Fruit,Daniel Anderson,Supplier A
-55,2024-01-24,Tomato,5,150,Vegetable,Alice Johnson,Supplier B
-56,2024-02-01,Cucumber,7,210,Vegetable,David Wilson,Supplier C
-57,2024-02-08,Milk,10,300,Dairy,Olivia Thomas,Supplier D
-58,2024-02-15,Bread,13,390,Bakery,John Smith,Supplier A
-59,2024-02-22,Apple,11,330,Fruit,Emily White,Supplier B
-60,2024-02-29,Cheese,8,240,Dairy,James Jackson,Supplier C
-61,2024-03-07,Banana,10,500,Fruit,Sarah Davis,Supplier D
-62,2024-03-14,Tomato,14,420,Vegetable,Daniel Anderson,Supplier A
-63,2024-03-21,Cucumber,12,360,Vegetable,Alice Johnson,Supplier B
-64,2024-03-28,Milk,9,270,Dairy,David Wilson,Supplier C
-65,2024-04-04,Bread,6,180,Bakery,Olivia Thomas,Supplier D
-66,2024-04-11,Apple,7,210,Fruit,John Smith,Supplier A
-67,2024-04-18,Cheese,5,150,Dairy,Emily White,Supplier B
-68,2024-04-25,Banana,8,400,Fruit,James Jackson,Supplier C
-69,2024-05-02,Tomato,11,330,Vegetable,Sarah Davis,Supplier D
-70,2024-05-09,Cucumber,9,270,Vegetable,Daniel Anderson,Supplier A
-71,2024-05-16,Milk,13,390,Dairy,Alice Johnson,Supplier B
-72,2024-05-23,Bread,15,450,Bakery,David Wilson,Supplier C
-73,2024-05-30,Apple,12,360,Fruit,Olivia Thomas,Supplier D
-74,2024-06-06,Cheese,10,300,Dairy,John Smith,Supplier A
-75,2024-06-13,Banana,6,300,Fruit,Emily White,Supplier B
-76,2024-06-20,Tomato,7,210,Vegetable,James Jackson,Supplier C
-77,2024-06-27,Cucumber,5,150,Vegetable,Sarah Davis,Supplier D
-78,2024-07-04,Milk,8,240,Dairy,Daniel Anderson,Supplier A
-79,2024-07-11,Bread,9,270,Bakery,Alice Johnson,Supplier B
-80,2024-07-18,Apple,14,420,Fruit,David Wilson,Supplier C
-81,2024-07-25,Cheese,11,330,Dairy,Olivia Thomas,Supplier D
-82,2024-08-01,Banana,13,650,Fruit,John Smith,Supplier A
-83,2024-08-08,Tomato,8,240,Vegetable,Emily White,Supplier B
-84,2024-08-15,Cucumber,7,210,Vegetable,James Jackson,Supplier C
-85,2024-08-22,Milk,6,180,Dairy,Sarah Davis,Supplier D
-86,2024-08-29,Bread,10,300,Bakery,Daniel Anderson,Supplier A
-87,2024-09-05,Apple,9,270,Fruit,Alice Johnson,Supplier B
-88,2024-09-12,Cheese,8,240,Dairy,David Wilson,Supplier C
-89,2024-09-19,Banana,7,350,Fruit,Olivia Thomas,Supplier D
-90,2024-09-26,Tomato,11,330,Vegetable,John Smith,Supplier A
-91,2024-10-03,Cucumber,12,360,Vegetable,Emily White,Supplier B
-92,2024-10-10,Milk,14,420,Dairy,James Jackson,Supplier C
-93,2024-10-17,Bread,13,390,Bakery,Sarah Davis,Supplier D
-94,2024-10-24,Apple,10,300,Fruit,Daniel Anderson,Supplier A
-95,2024-10-31,Cheese,9,270,Dairy,Alice Johnson,Supplier B
-96,2024-11-07,Banana,11,550,Fruit,David Wilson,Supplier C
-97,2024-11-14,Tomato,6,180,Vegetable,Olivia Thomas,Supplier D
-98,2024-11-21,Cucumber,5,150,Vegetable,John Smith,Supplier A
-99,2024-11-28,Milk,7,210,Dairy,Emily White,Supplier B
-100,2024-12-05,Bread,8,240,Bakery,James Jackson,Supplier C
+sale_id,date,product_name,quantity,total_price,category,customer_name
+1,2024-01-05,Milk,5,150,Dairy,Olivia Thomas
+2,2024-01-12,Bread,8,240,Bakery,James Jackson
+3,2024-01-19,Apple,10,300,Fruit,Emily White
+4,2024-01-26,Cheese,6,180,Dairy,Emily White
+5,2024-02-03,Tomato,9,270,Vegetable,Sarah Davis
+6,2024-02-10,Banana,7,350,Fruit,Daniel Anderson
+7,2024-02-17,Cucumber,4,120,Vegetable,Alice Johnson
+8,2024-02-24,Milk,6,180,Dairy,David Wilson
+9,2024-03-02,Bread,10,300,Bakery,Olivia Thomas
+10,2024-03-09,Apple,8,240,Fruit,John Smith
+11,2024-03-16,Cheese,12,360,Dairy,Emily White
+12,2024-03-23,Banana,5,250,Fruit,James Jackson
+13,2024-03-30,Tomato,7,210,Vegetable,Sarah Davis
+14,2024-04-06,Cucumber,11,330,Vegetable,Daniel Anderson
+15,2024-04-13,Milk,9,270,Dairy,Alice Johnson
+16,2024-04-20,Bread,6,180,Bakery,David Wilson
+17,2024-04-27,Apple,14,420,Fruit,Olivia Thomas
+18,2024-05-04,Cheese,10,300,Dairy,John Smith
+19,2024-05-11,Banana,8,400,Fruit,Emily White
+20,2024-05-18,Tomato,12,360,Vegetable,James Jackson
+21,2024-05-25,Cucumber,7,210,Vegetable,Sarah Davis
+22,2024-06-01,Milk,8,240,Dairy,Daniel Anderson
+23,2024-06-08,Bread,9,270,Bakery,Alice Johnson
+24,2024-06-15,Apple,13,390,Fruit,David Wilson
+25,2024-06-22,Cheese,15,450,Dairy,Olivia Thomas
+26,2024-06-29,Banana,10,500,Fruit,John Smith
+27,2024-07-06,Tomato,11,330,Vegetable,Emily White
+28,2024-07-13,Cucumber,12,360,Vegetable,James Jackson
+29,2024-07-20,Milk,5,150,Dairy,Sarah Davis
+30,2024-07-27,Bread,14,420,Bakery,Daniel Anderson
+31,2024-08-03,Apple,7,210,Fruit,Alice Johnson
+32,2024-08-10,Cheese,9,270,Dairy,David Wilson
+33,2024-08-17,Banana,11,550,Fruit,Olivia Thomas
+34,2024-08-24,Tomato,6,180,Vegetable,John Smith
+35,2024-08-31,Cucumber,8,240,Vegetable,Emily White
+36,2024-09-07,Milk,10,300,Dairy,James Jackson
+37,2024-09-14,Bread,15,450,Bakery,Sarah Davis
+38,2024-09-21,Apple,12,360,Fruit,Daniel Anderson
+39,2024-09-28,Cheese,7,210,Dairy,Alice Johnson
+40,2024-10-05,Banana,14,700,Fruit,David Wilson
+41,2024-10-12,Tomato,9,270,Vegetable,Olivia Thomas
+42,2024-10-19,Cucumber,10,300,Vegetable,John Smith
+43,2024-10-26,Milk,6,180,Dairy,Emily White
+44,2024-11-02,Bread,8,240,Bakery,James Jackson
+45,2024-11-09,Apple,9,270,Fruit,Sarah Davis
+46,2024-11-16,Cheese,10,300,Dairy,Daniel Anderson
+47,2024-11-23,Banana,12,600,Fruit,Alice Johnson
+48,2024-11-30,Tomato,13,390,Vegetable,David Wilson
+49,2024-12-07,Cucumber,14,420,Vegetable,Olivia Thomas
+50,2024-12-14,Milk,11,330,Dairy,John Smith
+51,2024-12-21,Bread,7,210,Bakery,Emily White
+52,2024-12-28,Apple,8,240,Fruit,James Jackson
+53,2024-01-10,Cheese,6,180,Dairy,Sarah Davis
+54,2024-01-17,Banana,9,450,Fruit,Daniel Anderson
+55,2024-01-24,Tomato,5,150,Vegetable,Alice Johnson
+56,2024-02-01,Cucumber,7,210,Vegetable,David Wilson
+57,2024-02-08,Milk,10,300,Dairy,Olivia Thomas
+58,2024-02-15,Bread,13,390,Bakery,John Smith
+59,2024-02-22,Apple,11,330,Fruit,Emily White
+60,2024-02-29,Cheese,8,240,Dairy,James Jackson
+61,2024-03-07,Banana,10,500,Fruit,Sarah Davis
+62,2024-03-14,Tomato,14,420,Vegetable,Daniel Anderson
+63,2024-03-21,Cucumber,12,360,Vegetable,Alice Johnson
+64,2024-03-28,Milk,9,270,Dairy,David Wilson
+65,2024-04-04,Bread,6,180,Bakery,Olivia Thomas
+66,2024-04-11,Apple,7,210,Fruit,John Smith
+67,2024-04-18,Cheese,5,150,Dairy,Emily White
+68,2024-04-25,Banana,8,400,Fruit,James Jackson
+69,2024-05-02,Tomato,11,330,Vegetable,Sarah Davis
+70,2024-05-09,Cucumber,9,270,Vegetable,Daniel Anderson
+71,2024-05-16,Milk,13,390,Dairy,Alice Johnson
+72,2024-05-23,Bread,15,450,Bakery,David Wilson
+73,2024-05-30,Apple,12,360,Fruit,Olivia Thomas
+74,2024-06-06,Cheese,10,300,Dairy,John Smith
+75,2024-06-13,Banana,6,300,Fruit,Emily White
+76,2024-06-20,Tomato,7,210,Vegetable,James Jackson
+77,2024-06-27,Cucumber,5,150,Vegetable,Sarah Davis
+78,2024-07-04,Milk,8,240,Dairy,Daniel Anderson
+79,2024-07-11,Bread,9,270,Bakery,Alice Johnson
+80,2024-07-18,Apple,14,420,Fruit,David Wilson
+81,2024-07-25,Cheese,11,330,Dairy,Olivia Thomas
+82,2024-08-01,Banana,13,650,Fruit,John Smith
+83,2024-08-08,Tomato,8,240,Vegetable,Emily White
+84,2024-08-15,Cucumber,7,210,Vegetable,James Jackson
+85,2024-08-22,Milk,6,180,Dairy,Sarah Davis
+86,2024-08-29,Bread,10,300,Bakery,Daniel Anderson
+87,2024-09-05,Apple,9,270,Fruit,Alice Johnson
+88,2024-09-12,Cheese,8,240,Dairy,David Wilson
+89,2024-09-19,Banana,7,350,Fruit,Olivia Thomas
+90,2024-09-26,Tomato,11,330,Vegetable,John Smith
+91,2024-10-03,Cucumber,12,360,Vegetable,Emily White
+92,2024-10-10,Milk,14,420,Dairy,James Jackson
+93,2024-10-17,Bread,13,390,Bakery,Sarah Davis
+94,2024-10-24,Apple,10,300,Fruit,Daniel Anderson
+95,2024-10-31,Cheese,9,270,Dairy,Alice Johnson
+96,2024-11-07,Banana,11,550,Fruit,David Wilson
+97,2024-11-14,Tomato,6,180,Vegetable,Olivia Thomas
+98,2024-11-21,Cucumber,5,150,Vegetable,John Smith
+99,2024-11-28,Milk,7,210,Dairy,Emily White
+100,2024-12-05,Bread,8,240,Bakery,James Jackson

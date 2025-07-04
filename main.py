@@ -2,30 +2,35 @@ import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel
 import re
-
-from analyzers.category_analyzer import CategoryAnalyzer
-from analyzers.customer_analyzer import CustomerAnalyzer  # sınıf olarak import ettik
-from analyzers.product_analyzer import customer_favorite_product
-from analyzers.sales_analyzer import SalesAnalyzer
-from analyzers.purchase_analyzer import PurchaseAnalyzer
-from engine.intent_resolution import parse_question  # NLP ve intent çözümleme burada
+from analyzer.product_analyzer import top_selling_product  # ZATEN customer_favorite_product var, bu da onun gibi
+from analyzer.category_analyzer import CategoryAnalyzer
+from analyzer.customer_analyzer import CustomerAnalyzer
+from analyzer.product_analyzer import customer_favorite_product
+from analyzer.sales_analyzer import SalesAnalyzer
+from analyzer.purchase_analyzer import PurchaseAnalyzer
+from engine.intent_resolution import parse_question
 
 app = FastAPI()
 
-# Veri yükleme ve ön işleme
-df = pd.read_csv('data/sales_data.csv')
-df['date'] = pd.to_datetime(df['date'], errors='coerce')
-df['month'] = df['date'].dt.month
-df['total_price'] = pd.to_numeric(df['total_price'], errors='coerce').fillna(0)
-print(df.columns)
+# Satış verisi
+df_sales = pd.read_csv('data/sales_data.csv')
+df_sales['date'] = pd.to_datetime(df_sales['date'], errors='coerce')
+df_sales['month'] = df_sales['date'].dt.month
+df_sales['total_price'] = pd.to_numeric(df_sales['total_price'], errors='coerce').fillna(0)
 
-# Analyzer örnekleri oluştur
-category_analyzer = CategoryAnalyzer(df)
-sales_analyzer = SalesAnalyzer(df)
-customer_analyzer = CustomerAnalyzer(df)
-purchase_analyzer = PurchaseAnalyzer(df)
+# Satın alma verisi
+df_purchase = pd.read_csv('data/purchase_large.csv')
+df_purchase['date'] = pd.to_datetime(df_purchase['date'], errors='coerce')
+df_purchase['month'] = df_purchase['date'].dt.month
+df_purchase['total_price'] = pd.to_numeric(df_purchase['total_price'], errors='coerce').fillna(0)
 
-customer_names_list = df['customer_name'].unique().tolist()
+# Analyzer'ları oluştur
+sales_analyzer = SalesAnalyzer(df_sales)
+purchase_analyzer = PurchaseAnalyzer(df_purchase)
+customer_analyzer = CustomerAnalyzer(df_sales)
+category_analyzer = CategoryAnalyzer(df_sales)
+
+customer_names_list = df_sales['customer_name'].unique().tolist()
 
 class Question(BaseModel):
     text: str
@@ -35,20 +40,50 @@ def chatbot_endpoint(question: Question):
     data = parse_question(question.text, customer_names_list)
 
     query = data["query"]
-    intents = data["intents"]
+    intents = set(data["intents"])  # mutable set olarak alıyoruz
     customer_name = data["customer_name"]
     month = data["month"]
     date_range = data["date_range"]
 
+    # --- EK İNTENT KURALLARI (keyword tabanlı) ---
+    q = query.lower()
+    # Örnek genişletmeler:
+    if "top" in q and "product" in q:
+        intents.add("TOP_PRODUCT_REVENUE")
+    if "category" in q and any(word in q for word in ["prefer", "like", "favorite", "favourite", "buy the most", "buy most", "top"]) and customer_name:
+        intents.add("CUSTOMER_FAVORITE_CATEGORY")
+
+    if any(word in q for word in ["favorite", "favourite", "best"]) and "product" in q and customer_name:
+        intents.add("CUSTOMER_FAVORITE_PRODUCT")
+    if any(word in q for word in ["favorite", "favourite", "buy the most", "buy most", "top category"]) and customer_name:
+        intents.add("CUSTOMER_FAVORITE_CATEGORY")
+    if "total purchase amount" in q or "total purchase value" in q:
+        intents.add("TOP_PURCHASE_AMOUNT")
+    if "top supplier spending" in q:
+        intents.add("TOP_SUPPLIER_SPENDING")
+    if "purchase count" in q or "purchases" in q:
+        intents.add("PURCHASE_COUNT")
+    if "top purchased product" in q or "most purchased product" in q:
+        intents.add("TOP_PURCHASED_PRODUCT")
+
+    # --- Debug printleri ---
+    print(f"Received query: {question.text}")
+    print(f"Normalized query: {query}")
+    print(f"Detected intents: {intents}")
+    print(f"Customer detected: {customer_name}")
+    print(f"Month detected: {month}")
+    print(f"Date range detected: {date_range}")
+
     # Tarih aralığı bazlı sorgular
     if date_range:
         start_date, end_date = date_range
-        if "revenue" in query:
-            revenue = sales_analyzer.get_total_revenue_in_date_range(start_date, end_date)
-            return {"response": f"From {start_date} to {end_date}, total revenue is {revenue}."}
-        elif any(word in query for word in ["total sales", "sales amount", "quantity", "total quantity", "amount"]):
-            quantity = sales_analyzer.get_total_quantity_in_date_range(start_date, end_date)
-            return {"response": f"From {start_date} to {end_date}, total sales quantity is {quantity}."}
+        if any(word in query for word in ["revenue", "sales", "amount", "quantity"]):
+            if "revenue" in query:
+                revenue = sales_analyzer.get_total_revenue_in_date_range(start_date, end_date)
+                return {"response": f"From {start_date} to {end_date}, total revenue is {revenue}."}
+            else:
+                quantity = sales_analyzer.get_total_quantity_in_date_range(start_date, end_date)
+                return {"response": f"From {start_date} to {end_date}, total sales quantity is {quantity}."}
 
     # Intent bazlı satış analizleri
     if "TOP_PRODUCT_QUANTITY" in intents and month:
@@ -57,8 +92,12 @@ def chatbot_endpoint(question: Question):
     if "TOP_PRODUCT_REVENUE" in intents and month:
         return {"response": sales_analyzer.get_top_selling_product_by_revenue(month)}
 
+    # Ay belirtilmediyse tüm zamanların en çok satan ürünü (toplam gelire göre)
+    if "TOP_PRODUCT_REVENUE" in intents:
+        return {"response": top_selling_product(df_sales)}
+
     # En çok müşteri bazlı sorgular
-    if "top customer" in query:
+    if "top" in query and "customer" in query:
         if month:
             return {"response": sales_analyzer.get_top_customers_by_revenue(month)}
         else:
@@ -66,20 +105,20 @@ def chatbot_endpoint(question: Question):
 
     # Müşteri bazlı sorgular
     if customer_name:
-        if "spend" in query:
-            if month:
-                return {"response": customer_analyzer.monthly_total_spending(customer_name, month)}
-            else:
-                return {"response": customer_analyzer.total_spending_by_customer(customer_name)}
-        elif "favorite product" in query:
-            return {"response": customer_favorite_product(df, customer_name)}
-        elif "favorite category" in query:
+        if "CUSTOMER_FAVORITE_PRODUCT" in intents:
+            return {"response": customer_favorite_product(df_sales, customer_name)}
+        elif "CUSTOMER_FAVORITE_CATEGORY" in intents:
             return {"response": category_analyzer.favorite_category_by_customer(customer_name)}
-        elif ("purchase count" in query) or ("purchases" in query):
+        elif "PURCHASE_COUNT" in intents:
             if month:
                 return {"response": customer_analyzer.monthly_purchase_count(customer_name, month)}
             else:
                 return {"response": "Please specify the month for purchase count."}
+        elif "spend" in query:
+            if month:
+                return {"response": customer_analyzer.monthly_total_spending(customer_name, month)}
+            else:
+                return {"response": customer_analyzer.total_spending_by_customer(customer_name)}
 
     # Ay bazlı genel satış sorguları
     if month is not None:
@@ -120,18 +159,18 @@ def chatbot_endpoint(question: Question):
     if "total sales by category" in query:
         return {"response": category_analyzer.total_sales_by_category()}
 
-    category_match = re.search(r"category (\w+)", query)
+    category_match = re.search(r"category ([\w\s]+)", query)
     if category_match:
-        category = category_match.group(1)
+        category = category_match.group(1).strip()
         if "total sales" in query:
             return {"response": sales_analyzer.get_total_sales_by_category(category)}
         elif "top product" in query:
             return {"response": sales_analyzer.get_top_product_by_category(category)}
 
     # Ürün bazlı sorgular
-    product_match = re.search(r"product (\w+)", query)
+    product_match = re.search(r"product ([\w\s]+)", query)
     if product_match:
-        product = product_match.group(1)
+        product = product_match.group(1).strip()
         if "total sales" in query:
             return {"response": sales_analyzer.get_total_sales_for_product(product)}
         elif ("total revenue" in query) or ("revenue" in query):

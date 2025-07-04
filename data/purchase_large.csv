@@ -1,101 +1,101 @@
-purchase_id	supplier_name	product_name	category	quantity	unit_price	total_price	payment_method	date
-1011	FreshFoods Ltd.	Potato	Fruits	79	12.48	985.92	Cash	2025-05-25 05:06:38
-1025	DailyFarms	Lettuce	Vegetables	46	5.9	271.4	Cash	2025-06-04 22:48:40
-1390	OrganicCo	Potato	Beverages	82	3.57	292.74	Cash	2025-05-29 01:57:58
-1611	GreenHarvest	Orange	Dairy	34	23.91	812.94	Credit Card	2025-05-15 17:17:43
-1586	FreshFoods Ltd.	Potato	Beverages	42	16.34	686.28	Credit Card	2025-06-22 16:14:08
-1573	HappyHerbs	Orange	Beverages	36	24.96	898.56	Cash	2025-06-26 13:21:16
-1213	OrganicCo	Carrot	Beverages	42	1.47	61.74	Credit Card	2025-05-18 05:51:42
-1943	DailyFarms	Watermelon	Vegetables	41	21.89	897.49	Cash	2025-06-14 18:51:05
-1261	HappyHerbs	Watermelon	Vegetables	79	1.87	147.73	Cash	2025-05-11 15:10:16
-1837	GreenHarvest	Apple	Beverages	31	12.86	398.66	Credit Card	2025-05-20 13:58:43
-1418	FreshFoods Ltd.	Lettuce	Vegetables	12	19.45	233.4	Credit Card	2025-05-13 06:35:04
-1558	OrganicCo	Potato	Dairy	29	13.14	381.06	Credit Card	2025-05-14 04:25:09
-1757	GreenHarvest	Orange	Fruits	42	18.48	776.16	Credit Card	2025-06-15 09:02:45
-1449	GreenHarvest	Tomato	Vegetables	68	24.08	1637.44	Cash	2025-05-03 20:12:32
-1174	OrganicCo	Orange	Vegetables	63	19.41	1222.83	Credit Card	2025-05-31 00:21:18
-1336	OrganicCo	Banana	Beverages	48	14.13	678.24	Credit Card	2025-05-21 15:51:24
-1832	FreshFoods Ltd.	Watermelon	Vegetables	71	15.38	1091.98	Cash	2025-06-11 13:20:37
-1468	FreshFoods Ltd.	Orange	Dairy	49	21.31	1044.19	Cash	2025-06-19 03:20:21
-1822	GreenHarvest	Carrot	Fruits	93	22.97	2136.21	Credit Card	2025-05-21 14:47:35
-1248	OrganicCo	Lettuce	Vegetables	100	13.75	1375.0	Credit Card	2025-05-10 22:12:31
-1219	HappyHerbs	Carrot	Beverages	25	17.99	449.75	Cash	2025-05-12 16:38:17
-1638	FreshFoods Ltd.	Apple	Fruits	7	10.43	73.01	Credit Card	2025-06-08 01:11:15
-1992	OrganicCo	Tomato	Beverages	14	18.03	252.42	Credit Card	2025-05-21 02:34:33
-1402	VeggieMart	Watermelon	Beverages	27	18.96	511.92	Credit Card	2025-05-25 12:32:14
-1816	VeggieMart	Cucumber	Vegetables	28	22.15	620.2	Credit Card	2025-06-10 16:34:45
-1856	HappyHerbs	Tomato	Vegetables	65	15.78	1025.7	Credit Card	2025-06-07 09:32:13
-1188	DailyFarms	Onion	Dairy	51	8.59	438.09	Credit Card	2025-05-05 22:01:51
-1706	HappyHerbs	Apple	Vegetables	28	18.23	510.44	Cash	2025-06-18 01:20:33
-1775	OrganicCo	Potato	Vegetables	99	15.34	1518.66	Credit Card	2025-05-09 10:56:25
-1757	GreenHarvest	Onion	Fruits	82	2.38	195.16	Credit Card	2025-05-22 17:37:30
-1926	FreshFoods Ltd.	Apple	Vegetables	99	11.84	1172.16	Credit Card	2025-05-09 00:18:03
-1077	GreenHarvest	Banana	Beverages	44	21.62	951.28	Cash	2025-05-06 04:02:24
-1842	DailyFarms	Watermelon	Dairy	20	19.88	397.6	Credit Card	2025-06-16 15:32:14
-1122	OrganicCo	Onion	Beverages	75	4.6	345.0	Credit Card	2025-05-23 10:55:11
-1139	GreenHarvest	Carrot	Fruits	53	21.44	1136.32	Credit Card	2025-07-01 01:58:21
-1808	OrganicCo	Potato	Fruits	2	11.51	23.02	Cash	2025-06-19 20:30:52
-1788	DailyFarms	Apple	Fruits	97	9.93	963.21	Credit Card	2025-05-30 00:49:57
-1608	VeggieMart	Tomato	Fruits	21	4.54	95.34	Credit Card	2025-06-22 07:04:53
-1749	DailyFarms	Potato	Dairy	100	15.28	1528.0	Credit Card	2025-05-23 21:42:54
-1030	OrganicCo	Banana	Dairy	61	8.01	488.61	Cash	2025-06-15 15:40:38
-1521	FreshFoods Ltd.	Lettuce	Beverages	73	19.03	1389.19	Credit Card	2025-06-30 23:49:59
-1447	HappyHerbs	Carrot	Vegetables	24	20.45	490.8	Cash	2025-05-05 09:50:07
-1039	OrganicCo	Carrot	Dairy	30	1.16	34.8	Credit Card	2025-06-18 22:09:54
-1885	VeggieMart	Potato	Vegetables	1	16.81	16.81	Cash	2025-06-19 05:52:53
-1523	DailyFarms	Onion	Beverages	92	15.95	1467.4	Credit Card	2025-05-06 06:51:23
-1463	FreshFoods Ltd.	Cucumber	Vegetables	24	23.05	553.2	Cash	2025-05-31 00:57:50
-1862	GreenHarvest	Cucumber	Beverages	100	10.27	1027.0	Cash	2025-06-04 23:07:39
-1933	VeggieMart	Potato	Beverages	98	21.3	2087.4	Credit Card	2025-06-19 01:30:41
-1365	GreenHarvest	Onion	Dairy	78	9.36	730.08	Cash	2025-05-13 22:30:24
-1223	DailyFarms	Cucumber	Fruits	27	4.73	127.71	Cash	2025-05-03 17:12:18
-1386	GreenHarvest	Cucumber	Dairy	22	15.25	335.5	Credit Card	2025-06-04 09:20:57
-1686	HappyHerbs	Potato	Vegetables	31	10.28	318.68	Credit Card	2025-06-01 11:03:03
-1564	VeggieMart	Banana	Fruits	51	2.23	113.73	Cash	2025-06-27 17:10:12
-1388	GreenHarvest	Tomato	Dairy	43	11.86	509.98	Cash	2025-05-27 07:44:21
-1040	VeggieMart	Apple	Beverages	70	9.36	655.2	Cash	2025-05-22 02:44:52
-1168	FreshFoods Ltd.	Banana	Vegetables	80	5.47	437.6	Cash	2025-05-25 12:26:54
-1599	GreenHarvest	Tomato	Beverages	46	23.84	1096.64	Cash	2025-05-08 16:56:54
-1665	OrganicCo	Lettuce	Beverages	9	11.15	100.35	Credit Card	2025-07-02 05:06:32
-1910	FreshFoods Ltd.	Watermelon	Dairy	4	12.52	50.08	Credit Card	2025-05-18 04:17:29
-1257	HappyHerbs	Potato	Dairy	40	4.15	166.0	Cash	2025-05-04 09:10:14
-1136	OrganicCo	Lettuce	Vegetables	68	12.57	854.76	Credit Card	2025-06-09 08:39:05
-1340	GreenHarvest	Cucumber	Beverages	52	7.12	370.24	Credit Card	2025-06-06 12:02:50
-1914	HappyHerbs	Carrot	Beverages	54	10.76	581.04	Credit Card	2025-06-30 15:42:37
-1578	FreshFoods Ltd.	Orange	Vegetables	50	19.46	973.0	Credit Card	2025-06-15 17:43:28
-1416	GreenHarvest	Potato	Beverages	45	16.61	747.45	Cash	2025-05-09 13:58:42
-1572	GreenHarvest	Tomato	Vegetables	31	17.0	527.0	Cash	2025-05-30 00:31:41
-1349	GreenHarvest	Cucumber	Fruits	46	7.93	364.78	Cash	2025-06-10 16:51:06
-1281	FreshFoods Ltd.	Apple	Beverages	64	12.72	814.08	Credit Card	2025-07-01 09:30:17
-1841	GreenHarvest	Cucumber	Vegetables	34	24.49	832.66	Cash	2025-06-16 07:32:44
-1530	DailyFarms	Onion	Vegetables	17	5.72	97.24	Cash	2025-05-21 18:50:38
-1683	VeggieMart	Lettuce	Vegetables	45	14.03	631.35	Credit Card	2025-06-14 11:41:41
-1261	DailyFarms	Carrot	Vegetables	18	1.31	23.58	Credit Card	2025-06-20 19:19:44
-1150	FreshFoods Ltd.	Banana	Dairy	25	1.65	41.25	Credit Card	2025-06-23 17:27:37
-1843	OrganicCo	Potato	Dairy	31	8.22	254.82	Cash	2025-06-26 03:09:33
-1491	HappyHerbs	Lettuce	Vegetables	60	2.19	131.4	Cash	2025-05-25 06:45:25
-1201	DailyFarms	Cucumber	Dairy	13	22.84	296.92	Cash	2025-05-08 01:30:16
-1515	HappyHerbs	Orange	Beverages	69	19.08	1316.52	Cash	2025-05-26 02:07:02
-1229	HappyHerbs	Cucumber	Dairy	37	22.81	843.97	Credit Card	2025-06-19 05:06:48
-1165	DailyFarms	Lettuce	Vegetables	57	9.53	543.21	Credit Card	2025-05-09 09:02:14
-1122	HappyHerbs	Orange	Beverages	43	4.43	190.49	Credit Card	2025-06-30 12:58:08
-1822	OrganicCo	Banana	Beverages	76	20.48	1556.48	Credit Card	2025-06-07 04:55:37
-1349	DailyFarms	Orange	Beverages	34	16.1	547.4	Credit Card	2025-06-27 18:26:58
-1059	GreenHarvest	Orange	Dairy	87	7.05	613.35	Credit Card	2025-05-19 14:55:43
-1293	DailyFarms	Cucumber	Dairy	57	20.22	1152.54	Credit Card	2025-05-07 16:19:18
-1255	FreshFoods Ltd.	Orange	Fruits	44	13.53	595.32	Credit Card	2025-07-01 03:53:01
-1173	DailyFarms	Potato	Fruits	4	4.41	17.64	Credit Card	2025-06-26 07:41:28
-1023	DailyFarms	Tomato	Vegetables	80	4.9	392.0	Credit Card	2025-06-02 21:02:13
-1640	DailyFarms	Carrot	Dairy	44	14.98	659.12	Credit Card	2025-05-15 23:34:21
-1759	FreshFoods Ltd.	Orange	Fruits	1	16.76	16.76	Credit Card	2025-05-31 12:48:27
-1542	GreenHarvest	Banana	Fruits	24	9.66	231.84	Cash	2025-06-22 07:02:46
-1220	FreshFoods Ltd.	Lettuce	Dairy	87	4.57	397.59	Cash	2025-06-02 00:25:04
-1899	OrganicCo	Onion	Fruits	32	22.54	721.28	Credit Card	2025-05-28 02:18:52
-1566	GreenHarvest	Banana	Fruits	81	4.74	383.94	Credit Card	2025-06-18 20:10:02
-1360	OrganicCo	Onion	Beverages	100	11.32	1132.0	Cash	2025-05-11 21:01:00
-1025	GreenHarvest	Apple	Vegetables	49	19.59	959.91	Cash	2025-05-17 15:38:49
-1864	HappyHerbs	Carrot	Fruits	17	21.09	358.53	Credit Card	2025-06-23 19:45:49
-1405	FreshFoods Ltd.	Onion	Vegetables	84	1.02	85.68	Credit Card	2025-06-07 00:28:38
-1215	VeggieMart	Apple	Dairy	69	18.18	1254.42	Cash	2025-05-12 00:34:43
-1248	OrganicCo	Carrot	Beverages	90	24.29	2186.1	Cash	2025-05-24 19:09:58
-1761	GreenHarvest	Banana	Beverages	96	2.54	243.84	Cash	2025-06-08 09:28:33
+purchase_id,supplier_name,product_name,category,quantity,unit_price,total_price,payment_method,date
+1011,FreshFoods Ltd.,Potato,Fruits,79,12.48,985.92,Cash,2025-05-25 05:06:38
+1025,DailyFarms,Lettuce,Vegetables,46,5.9,271.4,Cash,2025-06-04 22:48:40
+1390,OrganicCo,Potato,Beverages,82,3.57,292.74,Cash,2025-05-29 01:57:58
+1611,GreenHarvest,Orange,Dairy,34,23.91,812.94,Credit Card,2025-05-15 17:17:43
+1586,FreshFoods Ltd.,Potato,Beverages,42,16.34,686.28,Credit Card,2025-06-22 16:14:08
+1573,HappyHerbs,Orange,Beverages,36,24.96,898.56,Cash,2025-06-26 13:21:16
+1213,OrganicCo,Carrot,Beverages,42,1.47,61.74,Credit Card,2025-05-18 05:51:42
+1943,DailyFarms,Watermelon,Vegetables,41,21.89,897.49,Cash,2025-06-14 18:51:05
+1261,HappyHerbs,Watermelon,Vegetables,79,1.87,147.73,Cash,2025-05-11 15:10:16
+1837,GreenHarvest,Apple,Beverages,31,12.86,398.66,Credit Card,2025-05-20 13:58:43
+1418,FreshFoods Ltd.,Lettuce,Vegetables,12,19.45,233.4,Credit Card,2025-05-13 06:35:04
+1558,OrganicCo,Potato,Dairy,29,13.14,381.06,Credit Card,2025-05-14 04:25:09
+1757,GreenHarvest,Orange,Fruits,42,18.48,776.16,Credit Card,2025-06-15 09:02:45
+1449,GreenHarvest,Tomato,Vegetables,68,24.08,1637.44,Cash,2025-05-03 20:12:32
+1174,OrganicCo,Orange,Vegetables,63,19.41,1222.83,Credit Card,2025-05-31 00:21:18
+1336,OrganicCo,Banana,Beverages,48,14.13,678.24,Credit Card,2025-05-21 15:51:24
+1832,FreshFoods Ltd.,Watermelon,Vegetables,71,15.38,1091.98,Cash,2025-06-11 13:20:37
+1468,FreshFoods Ltd.,Orange,Dairy,49,21.31,1044.19,Cash,2025-06-19 03:20:21
+1822,GreenHarvest,Carrot,Fruits,93,22.97,2136.21,Credit Card,2025-05-21 14:47:35
+1248,OrganicCo,Lettuce,Vegetables,100,13.75,1375.0,Credit Card,2025-05-10 22:12:31
+1219,HappyHerbs,Carrot,Beverages,25,17.99,449.75,Cash,2025-05-12 16:38:17
+1638,FreshFoods Ltd.,Apple,Fruits,7,10.43,73.01,Credit Card,2025-06-08 01:11:15
+1992,OrganicCo,Tomato,Beverages,14,18.03,252.42,Credit Card,2025-05-21 02:34:33
+1402,VeggieMart,Watermelon,Beverages,27,18.96,511.92,Credit Card,2025-05-25 12:32:14
+1816,VeggieMart,Cucumber,Vegetables,28,22.15,620.2,Credit Card,2025-06-10 16:34:45
+1856,HappyHerbs,Tomato,Vegetables,65,15.78,1025.7,Credit Card,2025-06-07 09:32:13
+1188,DailyFarms,Onion,Dairy,51,8.59,438.09,Credit Card,2025-05-05 22:01:51
+1706,HappyHerbs,Apple,Vegetables,28,18.23,510.44,Cash,2025-06-18 01:20:33
+1775,OrganicCo,Potato,Vegetables,99,15.34,1518.66,Credit Card,2025-05-09 10:56:25
+1757,GreenHarvest,Onion,Fruits,82,2.38,195.16,Credit Card,2025-05-22 17:37:30
+1926,FreshFoods Ltd.,Apple,Vegetables,99,11.84,1172.16,Credit Card,2025-05-09 00:18:03
+1077,GreenHarvest,Banana,Beverages,44,21.62,951.28,Cash,2025-05-06 04:02:24
+1842,DailyFarms,Watermelon,Dairy,20,19.88,397.6,Credit Card,2025-06-16 15:32:14
+1122,OrganicCo,Onion,Beverages,75,4.6,345.0,Credit Card,2025-05-23 10:55:11
+1139,GreenHarvest,Carrot,Fruits,53,21.44,1136.32,Credit Card,2025-07-01 01:58:21
+1808,OrganicCo,Potato,Fruits,2,11.51,23.02,Cash,2025-06-19 20:30:52
+1788,DailyFarms,Apple,Fruits,97,9.93,963.21,Credit Card,2025-05-30 00:49:57
+1608,VeggieMart,Tomato,Fruits,21,4.54,95.34,Credit Card,2025-06-22 07:04:53
+1749,DailyFarms,Potato,Dairy,100,15.28,1528.0,Credit Card,2025-05-23 21:42:54
+1030,OrganicCo,Banana,Dairy,61,8.01,488.61,Cash,2025-06-15 15:40:38
+1521,FreshFoods Ltd.,Lettuce,Beverages,73,19.03,1389.19,Credit Card,2025-06-30 23:49:59
+1447,HappyHerbs,Carrot,Vegetables,24,20.45,490.8,Cash,2025-05-05 09:50:07
+1039,OrganicCo,Carrot,Dairy,30,1.16,34.8,Credit Card,2025-06-18 22:09:54
+1885,VeggieMart,Potato,Vegetables,1,16.81,16.81,Cash,2025-06-19 05:52:53
+1523,DailyFarms,Onion,Beverages,92,15.95,1467.4,Credit Card,2025-05-06 06:51:23
+1463,FreshFoods Ltd.,Cucumber,Vegetables,24,23.05,553.2,Cash,2025-05-31 00:57:50
+1862,GreenHarvest,Cucumber,Beverages,100,10.27,1027.0,Cash,2025-06-04 23:07:39
+1933,VeggieMart,Potato,Beverages,98,21.3,2087.4,Credit Card,2025-06-19 01:30:41
+1365,GreenHarvest,Onion,Dairy,78,9.36,730.08,Cash,2025-05-13 22:30:24
+1223,DailyFarms,Cucumber,Fruits,27,4.73,127.71,Cash,2025-05-03 17:12:18
+1386,GreenHarvest,Cucumber,Dairy,22,15.25,335.5,Credit Card,2025-06-04 09:20:57
+1686,HappyHerbs,Potato,Vegetables,31,10.28,318.68,Credit Card,2025-06-01 11:03:03
+1564,VeggieMart,Banana,Fruits,51,2.23,113.73,Cash,2025-06-27 17:10:12
+1388,GreenHarvest,Tomato,Dairy,43,11.86,509.98,Cash,2025-05-27 07:44:21
+1040,VeggieMart,Apple,Beverages,70,9.36,655.2,Cash,2025-05-22 02:44:52
+1168,FreshFoods Ltd.,Banana,Vegetables,80,5.47,437.6,Cash,2025-05-25 12:26:54
+1599,GreenHarvest,Tomato,Beverages,46,23.84,1096.64,Cash,2025-05-08 16:56:54
+1665,OrganicCo,Lettuce,Beverages,9,11.15,100.35,Credit Card,2025-07-02 05:06:32
+1910,FreshFoods Ltd.,Watermelon,Dairy,4,12.52,50.08,Credit Card,2025-05-18 04:17:29
+1257,HappyHerbs,Potato,Dairy,40,4.15,166.0,Cash,2025-05-04 09:10:14
+1136,OrganicCo,Lettuce,Vegetables,68,12.57,854.76,Credit Card,2025-06-09 08:39:05
+1340,GreenHarvest,Cucumber,Beverages,52,7.12,370.24,Credit Card,2025-06-06 12:02:50
+1914,HappyHerbs,Carrot,Beverages,54,10.76,581.04,Credit Card,2025-06-30 15:42:37
+1578,FreshFoods Ltd.,Orange,Vegetables,50,19.46,973.0,Credit Card,2025-06-15 17:43:28
+1416,GreenHarvest,Potato,Beverages,45,16.61,747.45,Cash,2025-05-09 13:58:42
+1572,GreenHarvest,Tomato,Vegetables,31,17.0,527.0,Cash,2025-05-30 00:31:41
+1349,GreenHarvest,Cucumber,Fruits,46,7.93,364.78,Cash,2025-06-10 16:51:06
+1281,FreshFoods Ltd.,Apple,Beverages,64,12.72,814.08,Credit Card,2025-07-01 09:30:17
+1841,GreenHarvest,Cucumber,Vegetables,34,24.49,832.66,Cash,2025-06-16 07:32:44
+1530,DailyFarms,Onion,Vegetables,17,5.72,97.24,Cash,2025-05-21 18:50:38
+1683,VeggieMart,Lettuce,Vegetables,45,14.03,631.35,Credit Card,2025-06-14 11:41:41
+1261,DailyFarms,Carrot,Vegetables,18,1.31,23.58,Credit Card,2025-06-20 19:19:44
+1150,FreshFoods Ltd.,Banana,Dairy,25,1.65,41.25,Credit Card,2025-06-23 17:27:37
+1843,OrganicCo,Potato,Dairy,31,8.22,254.82,Cash,2025-06-26 03:09:33
+1491,HappyHerbs,Lettuce,Vegetables,60,2.19,131.4,Cash,2025-05-25 06:45:25
+1201,DailyFarms,Cucumber,Dairy,13,22.84,296.92,Cash,2025-05-08 01:30:16
+1515,HappyHerbs,Orange,Beverages,69,19.08,1316.52,Cash,2025-05-26 02:07:02
+1229,HappyHerbs,Cucumber,Dairy,37,22.81,843.97,Credit Card,2025-06-19 05:06:48
+1165,DailyFarms,Lettuce,Vegetables,57,9.53,543.21,Credit Card,2025-05-09 09:02:14
+1122,HappyHerbs,Orange,Beverages,43,4.43,190.49,Credit Card,2025-06-30 12:58:08
+1822,OrganicCo,Banana,Beverages,76,20.48,1556.48,Credit Card,2025-06-07 04:55:37
+1349,DailyFarms,Orange,Beverages,34,16.1,547.4,Credit Card,2025-06-27 18:26:58
+1059,GreenHarvest,Orange,Dairy,87,7.05,613.35,Credit Card,2025-05-19 14:55:43
+1293,DailyFarms,Cucumber,Dairy,57,20.22,1152.54,Credit Card,2025-05-07 16:19:18
+1255,FreshFoods Ltd.,Orange,Fruits,44,13.53,595.32,Credit Card,2025-07-01 03:53:01
+1173,DailyFarms,Potato,Fruits,4,4.41,17.64,Credit Card,2025-06-26 07:41:28
+1023,DailyFarms,Tomato,Vegetables,80,4.9,392.0,Credit Card,2025-06-02 21:02:13
+1640,DailyFarms,Carrot,Dairy,44,14.98,659.12,Credit Card,2025-05-15 23:34:21
+1759,FreshFoods Ltd.,Orange,Fruits,1,16.76,16.76,Credit Card,2025-05-31 12:48:27
+1542,GreenHarvest,Banana,Fruits,24,9.66,231.84,Cash,2025-06-22 07:02:46
+1220,FreshFoods Ltd.,Lettuce,Dairy,87,4.57,397.59,Cash,2025-06-02 00:25:04
+1899,OrganicCo,Onion,Fruits,32,22.54,721.28,Credit Card,2025-05-28 02:18:52
+1566,GreenHarvest,Banana,Fruits,81,4.74,383.94,Credit Card,2025-06-18 20:10:02
+1360,OrganicCo,Onion,Beverages,100,11.32,1132.0,Cash,2025-05-11 21:01:00
+1025,GreenHarvest,Apple,Vegetables,49,19.59,959.91,Cash,2025-05-17 15:38:49
+1864,HappyHerbs,Carrot,Fruits,17,21.09,358.53,Credit Card,2025-06-23 19:45:49
+1405,FreshFoods Ltd.,Onion,Vegetables,84,1.02,85.68,Credit Card,2025-06-07 00:28:38
+1215,VeggieMart,Apple,Dairy,69,18.18,1254.42,Cash,2025-05-12 00:34:43
+1248,OrganicCo,Carrot,Beverages,90,24.29,2186.1,Cash,2025-05-24 19:09:58
+1761,GreenHarvest,Banana,Beverages,96,2.54,243.84,Cash,2025-06-08 09:28:33

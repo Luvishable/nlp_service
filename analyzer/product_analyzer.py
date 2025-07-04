@@ -10,4 +10,4 @@ def top_selling_product(df):
     product_sales=df.groupby('product_name')['total_price'].sum()
     top_product=product_sales.idxmax()
     total_sales=product_sales.max()
-    reeturn (f"The top selling product is {top_product} with total sales of {total_sales}")
+    return (f"The top selling product is {top_product} with total sales of {total_sales}")
