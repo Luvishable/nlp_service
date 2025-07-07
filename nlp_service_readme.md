@@ -69,5 +69,5 @@ spontane şekilde yazılmış promptlar analiz edilip response dönülebilir.
 
 ---
 
-Bu README dosyasını GitHub'da yayınlayıp sunumda kullanabilirsin. Güncelledikçe ben sana yardım ederim.
+
 
