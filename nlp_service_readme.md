@@ -19,7 +19,7 @@ nlp_service/
 └── README.md                # Proje dökümanı
 ```
 
-- `adapters/`  → Verileri pandas DataFrame'e yüklenmesini sağlayan **loader** sınıfları
+- `adapters/`  → Verilerin pandas DataFrame'e yüklenmesini sağlayan **loader** sınıfları
 - `analyzers/` → Satış ve alış veri analizlerini yapan **analyzer** sınıfları
 - `engine/`     → Promptu analiz edip doğru analiz fonksiyonunu çağıran motor
 - `tests/`      → Her katman için **pytest** testleri
@@ -40,16 +40,18 @@ nlp_service/
 
 ## 🔢 Bu Haftaki Hedefler
 
-1. 🔹 İngilizce destekli **zengin prompt** analizlerinin tamamlanması
-2. 🔹 CLI katmanının yazılması (Rich ile)
-3. 🔹 Gerçek veritabanı (PostgreSQL) bağlantısının planlanması
-4. 🔹 Son user-case testlerinin yazılması
+1. 🔹 Farklı analyzer scriptlerinin oluşturulması
+2. 🔹 Uygulamayı terminal üzerinden kullanırken daha iyi çıktı görüntüleri alabilmek için Rich library ile CLI katmanının yazılması
+3. 🔹 Yazılan birimlerin teslerinin yapılması
 
 ---
 
 ## 🔀 Geliştirilmeye Açık Alanlar
 
--
+- Engine şu anda default promptları analiz edip response dönebiliyor. Fakat ilerleyen süreçte kullanıcıdan gelen daha 
+spontane şekilde yazılmış promptlar analiz edilip response dönülebilir. 
+- Pandas Dataframe'ler yerine gerçek bir veritabanından çekilen veriler işlenecek.
+- 
 
 ---
 
